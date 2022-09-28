@@ -1,4 +1,4 @@
-name: Run build script and deploy site to Pages
+name: Validate html and css
 
 on:
   # Runs on pushes targeting the default branch
