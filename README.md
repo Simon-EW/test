@@ -1,1 +1,1 @@
-[![Run build script and deploy site to Pages](https://github.com/Simon-EW/test/actions/workflows/deploy.yml/badge.svg)](https://github.com/Simon-EW/test/actions/workflows/deploy.yml)
+[![Deployed to github Pages](https://github.com/Simon-EW/test/actions/workflows/deploy.yml/badge.svg)](https://github.com/Simon-EW/test/actions/workflows/deploy.yml) [![Valid html and css](https://github.com/Simon-EW/test/actions/workflows/validate.yml/badge.svg)](https://github.com/Simon-EW/test/actions/workflows/validate.yml)
