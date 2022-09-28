@@ -22,23 +22,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-
-  validate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: HTML5 Validator
-        uses: Cyb3r-Jak3/html5validator-action@master
-        with:
-          root: .
-          css: true
-          
-      - name: upload-log
-        uses: actions/upload-artifact@v3
-        with:
-          name: log
-          path: log.log
   # Build job
   build:
     runs-on: ubuntu-latest
